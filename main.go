@@ -13,7 +13,7 @@ import (
 )
 
 var (
-	//crypting engine
+	// Crypting engine
 	c Cryptos
 )
 
