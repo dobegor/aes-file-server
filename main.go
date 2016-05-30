@@ -91,6 +91,7 @@ func main() {
 
 	if err != nil {
 		fmt.Println("Error initializing AES: ", err)
+		return
 	}
 
 	//channel to catch errors/SIGINT
